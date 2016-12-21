@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="Marker for exam multiple-choice questions">
+		<meta name="author" content="gongy">
+		<link rel="icon" href="favicon.ico">
+
+		<title>gongy - home</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="cover.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<div class="site-wrapper">
+
+			<div class="site-wrapper-inner">
+
+				<div class="cover-container">
+
+					<div class="masthead clearfix">
+						<div class="inner">
+							<h3 class="masthead-brand"><a href="index.html">gongy</a></h3>
+							<nav>
+								<ul class="nav masthead-nav">
+									<li><a href="index.html">home</a></li>
+									<li><a href="http://mark.gongy.me">marker</a></li>
+									<li><a href="http://cal.gongy.me">calendar</a></li>
+									<li class="active"><a href="contact.html">contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+
+					<div class="inner cover">
+						<p class="cover-lead">contact me</p>
+						<br>
+						<p class="lead" style="font-size:28px"><a href="#" onclick="copycopy();">
+							<font color="#acb6d6")>
+								click to copy email
+							</font></a>
+						</p>
+						<p class="lead" style="font-size:28px"><a target="_blank" href="http://codeforces.com/profile/gongy">
+							<font color="#acb6d6")>
+								codeforces
+							</font></a>
+						</p>
+						<p class="lead" style="font-size:28px"><a target="_blank" href="https://github.com/gongy">
+							<font color="#acb6d6")>
+								github
+							</font></a>
+						</p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</div>
+
+					<div class="mastfoot">
+						<div class="inner">
+							<p>website by richard gong</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" language="javascript">
+function copycopy() {
+	p3398h_23476sdhf="QWHzxQCOtJO3@OoxWX.Hto";k122_dfj3="ReI2bfOnLvas1SW7mpc08wUrTkPlAJ95xuyYdEohH3VZNQgqBXFj6GiKMDC4tz";f28jsdf=p3398h_23476sdhf.length;link="";
+	for(i=0;i<p3398h_23476sdhf.length;i++){
+		if(k122_dfj3.indexOf(p3398h_23476sdhf.charAt(i))==-1){
+			ltr=p3398h_23476sdhf.charAt(i);link+=(ltr);
+		}else{
+			ltr=(k122_dfj3.indexOf(p3398h_23476sdhf.charAt(i))-f28jsdf+k122_dfj3.length)%k122_dfj3.length;
+			link+=(k122_dfj3.charAt(ltr));
+		}
+	}
+	var text = link;
+	if (window.clipboardData && window.clipboardData.setData) {
+		return clipboardData.setData("Text", text); 
+	} else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = text;
+		textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in MS Edge.
+		document.body.appendChild(textarea);
+		textarea.select();
+		try {
+			return document.execCommand("copy");  // Security exception may be thrown by some browsers.
+		} catch (ex) {
+			console.warn("Copy to clipboard failed.", ex);
+			return false;
+		} finally {
+			document.body.removeChild(textarea);
+		}
+	}
+}
+		</script>
+	</body>
+</html>
+
